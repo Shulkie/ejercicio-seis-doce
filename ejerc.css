@@ -74,8 +74,8 @@ padding: 3% 0%;
 }
 
 .logos-sociales{
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     display: flex;
     
   
@@ -84,10 +84,11 @@ padding: 3% 0%;
 .logos-sociales img{
     width:100%;
     height: auto;
-    margin: 0 50%;
-    
-    
+    margin: auto;  
 
+}
+.linkedin{
+    margin-right: 10px;
 }
 .titulo{
     color:orangered;
@@ -154,7 +155,7 @@ width: 50%;
 
 .nav ul{
     display: none;
-    position: absolute right 15px;
+    position: absolute right;
     padding: 0px;
 
     
@@ -162,12 +163,18 @@ width: 50%;
 .hamburguesa:hover + ul{
     display: flex;
     flex-direction: column;
-    background: white;
- 
- 
-    
+    background: white;  
 }
 li {
   padding:10px;  
+}
+
+.nosotras{
+    flex-direction: column;  
+    justify-content: space-between; 
+  
+}
+.personas{
+    margin: 15px;
 }
 }
