@@ -170,11 +170,38 @@ li {
 }
 
 .nosotras{
-    flex-direction: column;  
-    justify-content: space-between; 
+    flex-direction: column; 
+    justify-content: center;
+    margin: 10px 
+     
   
 }
 .personas{
-    margin: 15px;
+    
+    justify-content: center;
+    margin: 25px;
+  
+}
+.avatar{
+    text-align: center;
+   
+}
+.descripcion{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+  
+}
+
+
+.nombre-persona, .nombre-puesto{
+    background: #f1f1f1;
+    padding: 3px;
+    align-items: center;
+    border-radius: 5px;
 }
 }
